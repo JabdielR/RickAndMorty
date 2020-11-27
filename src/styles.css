@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100%;
+}
+.target {
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card {
+  background: #28f192;
+  margin: 5px;
+  padding: 10px;
+  width: 50%;
+  max-width: 350px;
+  border-radius: 3%;
+  border: 1px solid #000;
+}
+.cardHead {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cardHeadImg {
+  width: 30%;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+.h1{
+  text-align: center;
+}
